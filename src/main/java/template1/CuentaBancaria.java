@@ -12,5 +12,11 @@ public abstract class CuentaBancaria {
         return this.saldo;
     }
 
-    public abstract void extraer(float saldoARetirar);
+    public void extraer(float saldoARetirar) {
+        if (puedoExtraer(saldoARetirar)) {
+            saldo -= saldoARetirar;
+        }
+    }
+
+    abstract boolean puedoExtraer(float saldoARetirar);
 }

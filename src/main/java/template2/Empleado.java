@@ -10,6 +10,15 @@ public abstract class Empleado {
     }
 
     public float sueldo(int horasTrabajadas) {
-        return this.sueldoPorHora * horasTrabajadas;
+        return horasTrabajadas * this.sueldoPorHora
+                + salarioFamiliar()
+                + antiguedad()
+                - descuentos();
     }
+
+    protected abstract float descuentos();
+
+    protected abstract float antiguedad();
+
+    protected abstract float salarioFamiliar();
 }
