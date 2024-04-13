@@ -1,6 +1,7 @@
 package composite1;
 
 import javax.swing.*;
+import java.util.List;
 
 public class MainFrame extends JFrame {
     public MainFrame() {
@@ -11,7 +12,15 @@ public class MainFrame extends JFrame {
         canvas.agregarFigura(new Circulo(new Coordenada(200, 200), 50));
         canvas.agregarFigura(new Texto(new Coordenada(100, 300), "Hola Mundo"));
         // Dibujame un Dibujo ahora
-        // ¿como hago?
+
+        canvas.agregarFigura(
+                new Dibujo(
+                        List.of(
+                                new Linea(new Coordenada(80, 80), 100),
+                                new Texto(new Coordenada(10, 30), "Desde Dibujo")
+                        )
+                )
+        );
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 400);

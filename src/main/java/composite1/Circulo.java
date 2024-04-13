@@ -2,7 +2,6 @@ package composite1;
 
 import java.awt.*;
 
-// Clase para círculos
 class Circulo implements Figura {
     private int radio;
     private Coordenada coordenada;

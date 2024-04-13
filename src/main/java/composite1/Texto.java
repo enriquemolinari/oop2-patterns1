@@ -2,7 +2,6 @@ package composite1;
 
 import java.awt.*;
 
-// Clase para imprimir texto
 class Texto implements Figura {
     private final Coordenada coordenada;
     private String texto;

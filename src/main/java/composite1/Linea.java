@@ -2,7 +2,6 @@ package composite1;
 
 import java.awt.*;
 
-// Clase para líneas
 class Linea implements Figura {
     private final Coordenada coordenada;
     private int longitud;
