@@ -9,7 +9,7 @@ public abstract class Empleado {
         this.nombre = nombre;
     }
 
-    public float sueldo(int horasTrabajadas) {
+    public final float sueldo(int horasTrabajadas) {
         return horasTrabajadas * this.sueldoPorHora
                 + salarioFamiliar()
                 + antiguedad()
