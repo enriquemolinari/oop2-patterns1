@@ -10,15 +10,15 @@ public class ProyectoTest {
     public void test01() {
         var fakePrinter = new FakePrintConsola();
         var proyecto = new Proyecto(fakePrinter);
-        TareaCompleja release = new TareaCompleja("Preparar Release");
-        Tarea docu = new Tarea("Escribir Documentacion");
-        Tarea changelog = new Tarea("Actualizar changelog");
+        TareaCompleja release = new TareaCompleja("Preparar Release", fakePrinter);
+        Tarea docu = new Tarea("Escribir Documentacion", fakePrinter);
+        Tarea changelog = new Tarea("Actualizar changelog", fakePrinter);
         release.agregarSubtarea(docu);
         release.agregarSubtarea(changelog);
 
-        TareaCompleja qa = new TareaCompleja("QA Testing");
-        qa.agregarSubtarea(new Tarea("Correr Tests Automatizados"));
-        qa.agregarSubtarea(new Tarea("Correr Tests Manuales"));
+        TareaCompleja qa = new TareaCompleja("QA Testing", fakePrinter);
+        qa.agregarSubtarea(new Tarea("Correr Tests Automatizados", fakePrinter));
+        qa.agregarSubtarea(new Tarea("Correr Tests Manuales", fakePrinter));
 
         proyecto.agregar(release);
         proyecto.agregar(qa);

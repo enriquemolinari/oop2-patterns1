@@ -1,13 +1,16 @@
 package composite2;
 
-public class Tarea {
+public class Tarea implements ItemDeProyecto {
     private final String nombre;
+    private PrintConsola printer;
 
-    public Tarea(String nombre) {
+    public Tarea(String nombre, PrintConsola printer) {
         this.nombre = nombre;
+        this.printer = printer;
     }
 
-    public String getNombre() {
-        return nombre;
+    @Override
+    public void mostrarTarea(String indent) {
+        this.printer.println(indent + "- " + this.nombre);
     }
 }

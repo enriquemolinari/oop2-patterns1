@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a0f0bbf-8f81-4cc9-81fe-961edf668d82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite2/ItemDeProyecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/Proyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/Proyecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/Tarea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/TareaCompleja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/TareaCompleja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/composite2/ProyectoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/composite2/ProyectoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,13 @@
       <entry key="_/home/enrique/workspaces/oop2-patterns1/src/main" value="3CJoWLkDclIxAJ8HbnrPTTMwQc9" />
     </persistenceIdMap>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -28,22 +38,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "enriquemolinari"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;enriquemolinari&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/enriquemolinari/oop2-patterns1.git",
-    "accountId": "f0dfc563-11d8-4aa4-8887-77f436becec6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/enriquemolinari/oop2-patterns1.git&quot;,
+    &quot;accountId&quot;: &quot;f0dfc563-11d8-4aa4-8887-77f436becec6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3CJoWLkDclIxAJ8HbnrPTTMwQc9" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -58,7 +68,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "composite2",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -66,7 +76,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ProyectoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="composite2.Main" />
       <module name="patterns1" />
@@ -108,10 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="patterns1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="patterns1" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ProyectoTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.MainFrame" />
         <item itemvalue="JUnit.ProyectoTest" />
