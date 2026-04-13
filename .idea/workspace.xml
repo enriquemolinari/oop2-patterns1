@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a0f0bbf-8f81-4cc9-81fe-961edf668d82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite2/ItemDeProyecto.java" afterDir="false" />
+    <list default="true" id="2a0f0bbf-8f81-4cc9-81fe-961edf668d82" name="Changes" comment="refactor to composite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/Proyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/Proyecto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/Tarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/composite2/TareaCompleja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite2/TareaCompleja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/composite2/ProyectoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/composite2/ProyectoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +148,20 @@
       <option name="presentableId" value="Default" />
       <updated>1776113065161</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor to composite">
+      <option name="closed" value="true" />
+      <created>1776118928760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776118928760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor to composite" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor to composite" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
